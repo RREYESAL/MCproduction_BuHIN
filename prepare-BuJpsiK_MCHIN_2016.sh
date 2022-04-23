@@ -14,7 +14,7 @@ eval `scram runtime -sh`
 
 pyfile="BuJpsik_Pythia8_8p16TeV_TuneCUETP8M1_cfi.py"
 
-#curl -s --insecure https://raw.githubusercontent.com/rreyesal/MCproduction_BuHIN/main/$pyfile --retry 2 --create-dirs -o Configuration/GenProduction/python/$pyfile
+curl -s --insecure https://raw.githubusercontent.com/RREYESAL/MCproduction_BuHIN/main/$pyfile --retry 2 --create-dirs -o Configuration/GenProduction/python/$pyfile
 
 scram b
 cd ../../
